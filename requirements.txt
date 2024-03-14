@@ -1,4 +1,4 @@
-PIL
+pillow
 numpy
 cv2
 win32api
