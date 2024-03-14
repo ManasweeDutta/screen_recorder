@@ -1,4 +1,5 @@
-pillow
+opencv-python
 numpy
-cv2
-win32api
+Pillow
+pywin32
+streamlit
