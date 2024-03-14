@@ -1,5 +1,4 @@
 opencv-python
 numpy
 Pillow
-pywin32
 streamlit
