@@ -3,5 +3,5 @@ numpy
 Pillow
 streamlit
 # System-level dependencies
-libgl1-mesa-glx
-openGL
+# libgl1-mesa-glx
+# openGL
