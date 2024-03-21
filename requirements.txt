@@ -1,7 +1,5 @@
-opencv-python
-numpy
-Pillow
 streamlit
-# System-level dependencies
-# libgl1-mesa-glx
-# openGL
+pillow
+numpy
+opencv-python
+pywin32
