@@ -11,6 +11,8 @@ webcam_position = "top-right"  # Options: "top-right", "top-left", "bottom-right
 
 # Function to start screen recording
 def start_screen_recording(file_name, fps=7.0):
+    global webcam_position  # Make webcam_position variable global
+
     # Get screen dimensions using screeninfo
     monitors = get_monitors()
     screen_width, screen_height = monitors[0].width, monitors[0].height
@@ -55,6 +57,8 @@ def start_screen_recording(file_name, fps=7.0):
 
 # Main Streamlit code
 def main():
+    global webcam_position  # Make webcam_position variable global
+
     st.title("Screen Recorder with Webcam Overlay")
     st.sidebar.header("Settings")
     file_name = st.sidebar.text_input("Enter file name:", value="recording.mp4")
