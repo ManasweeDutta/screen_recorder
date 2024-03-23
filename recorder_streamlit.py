@@ -61,7 +61,7 @@ def main():
 
     st.title("Screen Recorder with Webcam Overlay")
     st.sidebar.header("Settings")
-    file_name = st.sidebar.text_input("Enter file name:", value="recording.mp4")
+    file_name = st.sidebar.text_input("Enter file name:", value=".mp4")
     fps = st.sidebar.number_input("Frame Rate (FPS)", min_value=1.0, value=7.0)
     webcam_position = st.sidebar.selectbox("Webcam Position", ["top-right", "top-left", "bottom-right", "bottom-left"])
     st.sidebar.write("Note: Using screeninfo library for screen capture (entire screen).")
