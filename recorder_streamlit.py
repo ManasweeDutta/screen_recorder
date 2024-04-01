@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 from screeninfo import get_monitors
 
-# Webcam overlay parameters (adjust as needed)
+# Webcam overlay parameters
 webcam_width = 200
 webcam_height = 150
 webcam_position = "top-right"  # Options: "top-right", "top-left", "bottom-right", "bottom-left"
